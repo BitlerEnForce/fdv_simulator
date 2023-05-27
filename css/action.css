@@ -1,0 +1,40 @@
+/*--- ACTION ---*/
+
+.action {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.action .un {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action .deux {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action .trois {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action .bouton {
+    margin: 5px;
+}
+
+.action .prendre {
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+.action .bouton:hover {
+    scale: 105%;
+    box-shadow: 0 0 10px white;
+}

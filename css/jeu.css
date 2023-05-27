@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Pangolin', cursive;
+    box-sizing: border-box;
+}
+
+/*---------- CLASSE ----------*/
+
+.bouton {
+    padding: 10px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+/*---------- DEBUT ----------*/
+
+.tout {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    border: 1px solid white;
+    font-weight: 100;
+    scale: 110%;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    color: white;
+    transition: all 0.3s;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.home:hover {
+    background-color: white;
+    scale: 120%;
+    box-shadow: 0 0 10px white;
+    color: black;
+}
+
+.jeu {
+    position: relative;
+    width: 1280px;
+    height: 900px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.396);
+}
+
+.ecran {
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    height: 720px;
+    /*background-color: rgb(27, 27, 27);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: url("../ressource/plan/x0y0z0.png");*/
+}
+
+.stat .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.306);
+    display: flex;
+    justify-content: center;
+}
+
+.stat .info p {
+    color: white;
+    margin: 0 10px;
+}
+
+/*---------- INTERFACE ----------*/
+
+.interface {
+    position: absolute;
+    bottom: 0;
+    width: 1280px;
+    height: 180px;
+    display: flex;
+}
+
+.volume {
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 150px;
+}
+
+.volume p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+} 

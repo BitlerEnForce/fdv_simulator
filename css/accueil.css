@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    cursor: pointer;
+}
+
+/*---------- CLASSE ----------*/
+
+.bouton {
+    padding: 10px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+}
+
+/*---------- DEBUT ----------*/
+
+.tout {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.info {
+    animation: arrive 1s ease forwards;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.jouer {
+    animation: arrive 1s ease forwards;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.jouer a {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.jouer a:hover {
+    box-shadow: 0 0 10px white;
+    background-color: white;
+    color: black;
+}
+
+.volume {
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 150px;
+}
+
+.volume p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+} 
+
+/*---------- ANIMATION ----------*/
+
+@keyframes arrive {
+    from {
+        opacity: 0;
+        backdrop-filter: blur(5px);
+        transform: translateY(100px);
+    }
+    to {
+        backdrop-filter: blur(5px);
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
