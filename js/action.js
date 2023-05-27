@@ -41,6 +41,8 @@ function refreshAll() {
     refreshInteraction2();
     refreshInteraction3();
     refreshInteraction4();
+    refreshInteraction5();
+    refreshInteraction6();
     refreshEcran();
     refreshInventory();
     refreshDispositionObjet();
